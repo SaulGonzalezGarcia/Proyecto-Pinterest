@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 1{
     width: 12px;
     height: 12px;
@@ -31,7 +36,8 @@ body{
     border-radius:20px;
     cursor:pointer;
     border: 1px white;
-    width:15px:
+    width:15px;
+    flex-grow:0.05;
 }
 .Hoy{
     color:black;
@@ -39,6 +45,7 @@ body{
     border-radius:20px;
     cursor:pointer;
     border: 1px white;
+    flex-grow:0.05;
 }
 .crear{
     color:black;
@@ -46,6 +53,7 @@ body{
     border-radius:20px;
     cursor: pointer;
     border: 1px white;
+    flex-grow:0.05;
 }
 .search{
     color: #5F5F5F;
@@ -53,7 +61,7 @@ body{
     border-radius:20px;
     cursor: pointer;
     border: 1px white;
-    flex-grow: 4;
+    flex-grow: 1;
 }
 .Notificaciones{
     color:black;
@@ -94,4 +102,19 @@ body{
 .Pinterest:hover{
     background-color:#F0F0F0;
     color:#F0F0F0;
+}
+.card{
+    position:relative;
+}
+.img-fluid{
+    width: 300px;
+    height:300px;
+}
+.card-info{
+position:absolute;
+    color:white;
+    border-radius:20px;
+    cursor:pointer;
+    background-color: red;
+    justify-content:flex-end;
 }
